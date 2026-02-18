@@ -1,45 +1,31 @@
-# sql-iclock-parser-to-excel
+# 📊 SQL Iclock Parser to Excel
 
-Script en Python diseñado para **procesar respaldos SQL (.sql)** que contienen sentencias `INSERT INTO iclock_transaction`, extraer los datos, estructurarlos en un DataFrame y **exportarlos a Excel** aplicando filtros personalizados.
-
-Ideal para análisis de **marcaciones de asistencia**, auditorías de tiempo y reportes por empleado.
+Script en Python para procesar respaldos SQL y exportar a Excel desarrollado por **Isaac Esteban Haro Torres**.
 
 ---
 
-## 🚀 Características
+## 📝 Descripción
 
-- Carga archivos `.sql` directamente desde **Google Colab**
-- Detecta automáticamente las columnas del `INSERT INTO`
-- Extrae todas las filas de datos desde múltiples sentencias SQL
-- Convierte los datos a un **DataFrame de pandas**
-- Soporte para valores `NULL`
-- Conversión automática de fechas (`punch_time`)
-- Filtro por:
-  - Código de empleado (`emp_code`)
-  - Rango de fechas
-- Exportación final a **Excel (.xlsx)**
+Parser para extraer datos de iclock_transaction a Excel.
 
 ---
 
-## 📁 Flujo del proceso
+## 🛠️ Stack Tecnológico
 
-1. Subir archivo `.sql`
-2. Leer y analizar sentencias `INSERT INTO iclock_transaction`
-3. Extraer columnas y registros
-4. Convertir datos a formato estructurado
-5. Aplicar filtros personalizados
-6. Generar archivo Excel
-7. Descargar el archivo filtrado
+- Python
+- pandas
 
 ---
 
-## ⚙️ Requisitos
+## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
 
-- Google Colab
-- Python 3
-- Librerías:
-  - `pandas`
-  - `re`
-  - `google.colab`
+**Ingeniero en Sistemas · Full Stack · Automatización · Data**
 
-*(No requiere conexión a base de datos)*
+- 📧 Email: zackharo1@gmail.com
+- 📱 WhatsApp: 098805517
+- 💻 GitHub: https://github.com/ieharo1
+- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+
+---
+
+© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
