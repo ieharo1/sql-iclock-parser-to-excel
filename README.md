@@ -192,13 +192,6 @@ parser.generar_excel("reporte.xlsx", **formato)
 
 ---
 
-## 🤝 Contribuciones
-
-¿Agregaste soporte para otro modelo de terminal?
-¡Abre un Pull Request!
-
----
-
 ## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
 
 **Ingeniero en Sistemas · Full Stack · Automatización · Data**
